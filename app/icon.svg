@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 瞄准镜外圈 -->
+  <circle cx="128" cy="128" r="120" stroke="#171717" stroke-width="16"/>
+  
+  <!-- 瞄准线 (十字) -->
+  <line x1="128" y1="8" x2="128" y2="60" stroke="#171717" stroke-width="12" stroke-linecap="round"/>
+  <line x1="128" y1="196" x2="128" y2="248" stroke="#171717" stroke-width="12" stroke-linecap="round"/>
+  <line x1="8" y1="128" x2="60" y2="128" stroke="#171717" stroke-width="12" stroke-linecap="round"/>
+  <line x1="196" y1="128" x2="248" y2="128" stroke="#171717" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- PARD 核心红三角 (稍微上移一点，符合视觉重心) -->
+  <path d="M128 80 L170 150 H86 L128 80Z" fill="#DC2626"/>
+</svg>
